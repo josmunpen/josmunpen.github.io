@@ -2,7 +2,7 @@ import type { SiteConfig } from "@/types";
 import type { AstroExpressiveCodeOptions } from "astro-expressive-code";
 
 export const siteConfig: SiteConfig = {
-	author: "Your Name",
+	author: "José Manuel Muñiz Peña",
 	date: {
 		locale: "en-US",
 		options: {
@@ -19,8 +19,8 @@ export const siteConfig: SiteConfig = {
 	title: "Astro Sienna",
 	hideThemeCredit: false,
 	profile: {
-		name: "John Doe",
-		email: "john@example.com",
+		name: "José Manuel Muñiz Peña",
+		email: "josemamup@gmail.com",
 		github: "https://github.com/example",
 		linkedin: "https://www.linkedin.com/in/example/",
 		jobTitle: "Software Engineer",
