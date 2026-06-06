@@ -5,14 +5,14 @@ description: José Manuel Muñiz Peña — Machine Learning Engineer
 
 ## Experience
 
-### ML/AI Engineer
+### Machine Learning / AI Engineer
 **Plain Concepts** — July 2026 – Present
 
 Built end-to-end AI solutions for a leading law firm, translating business requirements into production systems.
 
 - **Infrastructure as Code.** Designed and maintained cloud infrastructure for ML/AI systems.
+- **Legal Document Search.** Implemented a document search engine for legal content, fine-tuning Azure AI Search to improve retrieval accuracy.
 - **Retrieval-Augmented Generation (RAG).** Built RAG pipelines using Azure AI Search and FastAPI.
-- **Conversational Agents.** Developed conversational AI agents for a leading law firm, handling complex legal queries.
 
 ### Machine Learning Engineer
 **NWorld · Banco Santander** — February 2024 – July 2026
@@ -30,13 +30,11 @@ Supervised and unsupervised models for Anti-Money Laundering (AML) solutions.
 
 Backend, big data, and cloud infrastructure across several projects.
 
-- Cloud architecture design (VPC, S3, Lambda, ECS, Glue, EC2, Athena, ECR, RDS, IAM).
-- Data Science projects brought to production (pandas, sklearn, numpy).
-- ETL development (Spark, pandas, Glue).
-- Backend development (FastAPI, Python).
-- AWS infrastructure deployment with Terraform (IaC).
-
----
+- **Cloud architecture design** (VPC, S3, Lambda, ECS, Glue, EC2, Athena, ECR, RDS, IAM).
+- Data Science projects brought to **production** (pandas, sklearn, numpy).
+- **ETL development** (Spark, pandas, Glue).
+- **Backend development** (FastAPI, Python).
+- AWS **infrastructure deployment** with Terraform (IaC).
 
 ## Education
 
@@ -49,16 +47,12 @@ Thesis: *Machine Learning Models Interpretability* — Honors.
 Final project: *Headlines Generation Through Transformer-based Models* — Honors.
 Honors in Artificial Intelligence.
 
----
-
 ## Certifications
 
 - **Microsoft Certified: Azure Fundamentals** — 2025
 - **AWS Certified Cloud Practitioner** — 2023
 - **Professional Certificate Google Data Analytics** (+150h) — Coursera, 2021
 - **Scrum Foundations Professional Certificate** — Certiprof, 2021
-
----
 
 ## Languages
 
