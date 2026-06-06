@@ -12,7 +12,7 @@ export const siteConfig: SiteConfig = {
 		},
 	},
 	description:
-		"A minimal personal blog & writing space, built with Astro. Notes on whatever I happen to be thinking about — usually some mix of code, design, and the occasional half-formed idea. Replace this paragraph in src/site.config.ts to make the site your own.",
+		"Just another software engineering blog — but mine. I'm José, a Software Engineer based in Spain. Here I share what I'm currently learning, exploring, or building: thoughts on Software Engineering and ML Engineering, and resources worth reading or watching.",
 	lang: "en-US",
 	ogLocale: "en_US",
 	sortPostsByUpdatedDate: false,
