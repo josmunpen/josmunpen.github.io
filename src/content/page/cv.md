@@ -8,6 +8,8 @@ description: José Manuel Muñiz Peña — Machine Learning Engineer
 ### ML/AI Engineer
 **Plain Concepts** — July 2026 – Present
 
+Built end-to-end AI solutions for a leading law firm, translating business requirements into production systems.
+
 - **Infrastructure as Code.** Designed and maintained cloud infrastructure for ML/AI systems.
 - **Retrieval-Augmented Generation (RAG).** Built RAG pipelines using Azure AI Search and FastAPI.
 - **Conversational Agents.** Developed conversational AI agents for a leading law firm, handling complex legal queries.
@@ -51,7 +53,7 @@ Honors in Artificial Intelligence.
 
 ## Certifications
 
-- **Microsoft Certified: Azure Fundamentals** — November 2025
+- **Microsoft Certified: Azure Fundamentals** — 2025
 - **AWS Certified Cloud Practitioner** — 2023
 - **Professional Certificate Google Data Analytics** (+150h) — Coursera, 2021
 - **Scrum Foundations Professional Certificate** — Certiprof, 2021
