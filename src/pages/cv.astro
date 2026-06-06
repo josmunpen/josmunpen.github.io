@@ -1,0 +1,116 @@
+---
+import { getEntry, render } from "astro:content";
+import PageLayout from "@/layouts/Base.astro";
+
+const entry = await getEntry("page", "cv");
+if (!entry) throw new Error("Missing src/content/page/cv.md");
+const { Content } = await render(entry);
+
+const meta = {
+	title: entry.data.title,
+	description: entry.data.description,
+};
+---
+
+<PageLayout meta={meta}>
+	<section class="cv" aria-labelledby="cv-label">
+		<div class="section-label" id="cv-label">CV</div>
+		<div class="cv-body">
+			<Content />
+		</div>
+	</section>
+</PageLayout>
+
+<style>
+	.cv {
+		margin-bottom: 64px;
+	}
+
+	.cv-body {
+		font-family: var(--font-sans);
+		font-size: 15px;
+		line-height: 1.7;
+		color: hsl(var(--theme-text));
+		max-width: var(--reading-width);
+	}
+
+	/* Section headings (##) */
+	.cv-body :global(h2) {
+		font-family: var(--font-sans);
+		font-size: 11px;
+		font-weight: 600;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		color: hsl(var(--theme-text) / 0.5);
+		margin: 48px 0 20px;
+		padding-bottom: 8px;
+		border-bottom: 1px solid var(--hairline);
+	}
+
+	.cv-body :global(h2:first-child) {
+		margin-top: 0;
+	}
+
+	/* Job/degree title (###) */
+	.cv-body :global(h3) {
+		font-family: var(--font-sans);
+		font-size: 16px;
+		font-weight: 600;
+		color: hsl(var(--theme-text));
+		margin: 28px 0 2px;
+	}
+
+	.cv-body :global(h3:first-child) {
+		margin-top: 0;
+	}
+
+	/* Company + dates line (bold inside p) */
+	.cv-body :global(p > strong:first-child) {
+		font-size: 13px;
+		color: hsl(var(--theme-text) / 0.6);
+		font-weight: 500;
+	}
+
+	.cv-body :global(p) {
+		margin: 0 0 10px;
+		color: hsl(var(--theme-text) / 0.85);
+	}
+
+	.cv-body :global(ul) {
+		list-style: disc;
+		list-style-position: outside;
+		padding-left: 18px;
+		margin: 8px 0 16px;
+	}
+
+	.cv-body :global(ul li) {
+		margin-bottom: 5px;
+		color: hsl(var(--theme-text) / 0.8);
+		font-size: 14.5px;
+	}
+
+	.cv-body :global(ul li strong) {
+		color: hsl(var(--theme-text));
+		font-weight: 600;
+	}
+
+	.cv-body :global(hr) {
+		border: none;
+		border-top: 1px solid var(--hairline);
+		margin: 40px 0;
+	}
+
+	.cv-body :global(em) {
+		font-style: italic;
+		color: hsl(var(--theme-text) / 0.75);
+	}
+
+	@media (max-width: 720px) {
+		.cv-body {
+			font-size: 14.5px;
+		}
+		.cv-body :global(h3) {
+			font-size: 15px;
+		}
+	}
+</style>
