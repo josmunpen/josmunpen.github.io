@@ -1,7 +1,7 @@
 ---
 title: "My current Pi setup"
 publishDate: 2026-06-16
-description: ""
+description: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
 tags: [ personal ]
 draft: true
 ---
