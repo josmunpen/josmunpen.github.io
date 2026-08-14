@@ -3,6 +3,7 @@ title: "My current Pi setup"
 publishDate: 2026-06-16
 description: ""
 tags: [ personal ]
+draft: true
 ---
 
 
