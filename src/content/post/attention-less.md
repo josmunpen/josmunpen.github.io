@@ -1,8 +1,9 @@
 ---
 title: "Attention-less"
-publishDate: 2026-08-14
+publishDate: 2026-08-15
 description: "Lack of attention in the age of attention mechanisms"
 tags: [ developer-experience, productivity, ai ]
+draft: true
 ---
 
 *Attention is all you need* [^1] was a turning point. Attention mechanisms made coherent language generation possible for the first time. Neural networks that could actually understand the relevance of a token within its context.
