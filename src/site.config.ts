@@ -12,7 +12,7 @@ export const siteConfig: SiteConfig = {
 		},
 	},
 	description:
-		"Just another software engineering blog — but mine. I'm José, a Software Engineer based in Spain. Here I share what I'm currently learning, exploring, or building: thoughts on Software Engineering and ML Engineering, and resources worth reading or watching.",
+		"Just another software engineering blog — but mine. I'm José, a Machine Learning Engineer based in Spain. Here I share what I'm currently learning, exploring, or building: thoughts on Software Engineering and ML Engineering, and resources worth reading or watching.",
 	lang: "en-US",
 	ogLocale: "en_US",
 	sortPostsByUpdatedDate: false,
@@ -23,7 +23,7 @@ export const siteConfig: SiteConfig = {
 		email: "josemamup@gmail.com",
 		github: "https://github.com/josmunpen",
 		linkedin: "https://www.linkedin.com/in/jmmunizpena",
-		jobTitle: "Software Engineer",
+		jobTitle: "Machine Learning Engineer",
 		employer: "Plain Concepts",
 		employerUrl: "https://www.plainconcepts.com",
 		alumni: "Universidad de Sevilla",

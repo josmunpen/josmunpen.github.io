@@ -1,6 +1,6 @@
 ---
 title: "Attention-less"
-publishDate: 2026-06-07
+publishDate: 2026-08-14
 description: "Lack of attention in the age of attention mechanisms"
 tags: [ developer-experience, productivity, ai ]
 ---
@@ -18,7 +18,7 @@ For me this isn't natural. On each round, I can barely recover the context of th
 Another approach: take one task, and while the coding agent works, either follow its tool executions obsessively (not easy to read) or look at the involved code in parallel.
 Two problems with this: one, it doesn't get the most out of parallelizing async work with agents. Two, it's a cognitive effort that's hard to commit to when you have a very comfortable alternative: not making that effort, waiting, checking your phone, opening email.
 
-I don't have a clear solution. The only thing that's working for me - at least enough to end the day with some brain cells left - is keeping my phone out of the room and working in 20-minute focus sessions. During those 20 minutes: no song changes, no unlocking the phone, no replying to Teams. And while the agent works, I force myself to review the code or think through the solution instead of constantly context-switching. I try to work with 1 or 2 agents in parallel depending on task complexity, but I haven't managed to push the async value higher without hurting my focus or the quality of my work.
+I don't have a clear solution. The only thing that's working for me - at least enough to end the day with some brain cells left - is keeping my phone out of the room and working in 20-minute focus sessions. During those 20 minutes: no song changes, no unlocking the phone, no replying to Teams. And while the agent works, I force myself to review the code or think through the solution instead of constantly context-switching. I try to work with up to 3 agents in parallel depending on task complexity, but I haven't managed to push the async value higher without hurting my focus or the quality of my work.
 
 Attention looks expensive. Just not in the way we thought.
 
