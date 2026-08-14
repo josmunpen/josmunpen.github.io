@@ -3,16 +3,18 @@ title: CV
 description: José Manuel Muñiz Peña — Machine Learning Engineer
 ---
 
+Machine Learning Engineer focused on building production AI and data systems. I work across cloud infrastructure, MLOps, and GenAI.
+
 ## Experience
 
 ### Machine Learning / AI Engineer
 **Plain Concepts** — July 2026 – Present
 
-Built end-to-end AI solutions for a leading law firm, translating business requirements into production systems.
+Developing production AI systems for a leading law firm, spanning cloud infrastructure, legal information retrieval, and generative AI.
 
-- **Infrastructure as Code.** Designed and maintained cloud infrastructure for ML/AI systems.
-- **Legal Document Search.** Implemented a document search engine for legal content, fine-tuning Azure AI Search to improve retrieval accuracy.
-- **Retrieval-Augmented Generation (RAG).** Built RAG pipelines using Azure AI Search and FastAPI.
+- **Platform & infrastructure.** Designed and maintained infrastructure-as-code foundations for ML and GenAI workloads.
+- **Legal search.** Developed search capabilities over legal documents, tuning Azure AI Search to improve retrieval quality.
+- **RAG applications.** Built FastAPI services and RAG pipelines with Azure AI Search to ground generative responses in legal sources.
 
 ### Machine Learning Engineer
 **NWorld · Banco Santander** — February 2024 – July 2026
@@ -38,11 +40,11 @@ Backend, big data, and cloud infrastructure across several projects.
 
 ## Education
 
-### Master's degree in Software Engineering: Cloud, Data and IT Management
+### MSc in Software Engineering — Cloud, Data & IT Management
 **University of Seville** — 2021–2022
 Thesis: *Machine Learning Models Interpretability* — Honors.
 
-### Bachelor's degree in Computer Engineering — Software Engineering
+### BSc in Computer Engineering — Software Engineering
 **University of Seville** — 2016–2021
 Final project: *Headlines Generation Through Transformer-based Models* — Honors.
 Honors in Artificial Intelligence.
@@ -51,10 +53,10 @@ Honors in Artificial Intelligence.
 
 - **Microsoft Certified: Azure Fundamentals** — 2025
 - **AWS Certified Cloud Practitioner** — 2023
-- **Professional Certificate Google Data Analytics** (+150h) — Coursera, 2021
+- **Google Data Analytics Professional Certificate** (+150h) — Coursera, 2021
 - **Scrum Foundations Professional Certificate** — Certiprof, 2021
 
 ## Languages
 
 - Spanish — Native
-- English — Professional
+- English — Professional working proficiency

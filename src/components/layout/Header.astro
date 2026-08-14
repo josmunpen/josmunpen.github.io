@@ -6,6 +6,7 @@ import ThemeToggle from "../ThemeToggle.astro";
 
 const url = new URL(Astro.request.url);
 const wordmark = siteConfig.title;
+const isCvPage = url.pathname === withBase("/cv/");
 
 const visibleMenuLinks = menuLinks.filter((link) => {
 	if (link.path === "/showcase/" && showcase.length === 0) return false;
@@ -20,7 +21,13 @@ const isActive = (path: string) => {
 ---
 
 <header class="site-header" id="main-header">
-	<a href={withBase("/")} class="wordmark">{wordmark}</a>
+	{
+		isCvPage ? (
+			<span class="wordmark wordmark--placeholder" aria-hidden="true"></span>
+		) : (
+			<a href={withBase("/")} class="wordmark">{wordmark}</a>
+		)
+	}
 	<div class="header-right">
 		<nav class="nav" aria-label="Primary">
 			{
@@ -58,6 +65,9 @@ const isActive = (path: string) => {
 	}
 	.wordmark:hover {
 		color: hsl(var(--theme-accent));
+	}
+	.wordmark--placeholder {
+		flex: 0 0 166px;
 	}
 	.header-right {
 		display: flex;
@@ -131,6 +141,9 @@ const isActive = (path: string) => {
 		}
 		.wordmark {
 			font-size: 16px;
+		}
+		.wordmark--placeholder {
+			flex-basis: 156px;
 		}
 		.nav {
 			gap: 18px;
