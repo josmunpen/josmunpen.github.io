@@ -3,7 +3,7 @@ title: "Attention-less"
 publishDate: 2026-08-15
 description: "Lack of attention in the age of attention mechanisms"
 tags: [ developer-experience, productivity, ai ]
-draft: true
+draft: false
 ---
 
 *Attention Is All You Need* [^1] was a turning point. It showed that attention alone could power language models at scale, setting the direction for modern LLMs.
