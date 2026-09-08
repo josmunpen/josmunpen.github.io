@@ -1,6 +1,6 @@
 ---
 title: "Here we go"
-publishDate: 2026-06-12
+publishDate: 2026-06-14
 description: "A first step into sharing my thoughts on software engineering, adapting to fast-paced tech"
 tags: [ personal ]
 ---

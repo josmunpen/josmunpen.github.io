@@ -15,6 +15,15 @@ const meta = {
 <PageLayout meta={meta}>
 	<section class="cv" aria-labelledby="cv-label">
 		<div class="section-label" id="cv-label">José Manuel Muñiz Peña — Machine Learning Engineer</div>
+		<div class="cv-contact">
+			<span>Spain</span>
+			<span aria-hidden="true">·</span>
+			<a href="mailto:josemamup@gmail.com">josemamup@gmail.com</a>
+			<span aria-hidden="true">·</span>
+			<a href="https://www.linkedin.com/in/jmmunizpena">LinkedIn</a>
+			<span aria-hidden="true">·</span>
+			<a href="https://github.com/josmunpen">GitHub</a>
+		</div>
 		<div class="cv-body">
 			<Content />
 		</div>
@@ -34,6 +43,24 @@ const meta = {
 		max-width: var(--reading-width);
 	}
 
+	.cv :global(.section-label) {
+		margin-bottom: 8px;
+	}
+
+	.cv-contact {
+		margin: 0 0 40px;
+		font-family: var(--font-sans);
+		font-size: 13px;
+		color: hsl(var(--theme-text) / 0.6);
+		display: flex;
+		flex-wrap: wrap;
+		gap: 0 7px;
+	}
+
+	.cv-contact a:hover {
+		color: hsl(var(--theme-accent));
+	}
+
 	/* Section headings (##) */
 	.cv-body :global(h2) {
 		font-family: var(--font-sans);
@@ -49,6 +76,10 @@ const meta = {
 
 	.cv-body :global(h2:first-child) {
 		margin-top: 0;
+	}
+
+	.cv-body :global(p:first-child + h2) {
+		margin-top: 36px;
 	}
 
 	/* Job/degree title (###) */
@@ -106,6 +137,10 @@ const meta = {
 	}
 
 	@media (max-width: 720px) {
+		.cv-contact {
+			margin-bottom: 32px;
+		}
+
 		.cv-body {
 			font-size: 14.5px;
 		}
