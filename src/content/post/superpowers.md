@@ -1,11 +1,11 @@
 ---
 title: "On AI-powered superpowers and how to keep them in check"
-publishDate: 2026-09-2
+publishDate: 2026-09-28
 description: "AI makes it easier than ever to build faster, but also to overbuild. A small framework I use to slow down, understand the problem, and avoid complexity."
-tags: [ personal ]
+tags: [ software_engineer, aidlc ]
 ---
 
-I don’t know if you have a colleague who lately feels like they’re on top of the world. Someone who, compared to a year ago, now seems capable of doing everything better and faster than everyone else.
+Do you have one of those colleagues who suddenly feels unstoppable? Someone who, compared to a year ago, now seems capable of doing everything better and faster than everyone else.
 
 These people think everything is extremely simple, that anything can be done in less time and that, probably, their dick is a few centimetres bigger than everyone else’s.
 
@@ -99,4 +99,4 @@ I hope you found this interesting, or maybe even useful.
 
 [^1]: Gebert, D. [Ponytail — The best code is the code you never wrote](https://github.com/DietrichGebert/ponytail).
 
-[^2]: Skinner, J. (2026). [Cleaning up after AI rockstar developers](https://www.jesseskinner.com/blog/rockstar-developers/).
+[^oculta]: Skinner, J. (2026). [Cleaning up after AI rockstar developers](https://www.jesseskinner.com/blog/rockstar-developers/).

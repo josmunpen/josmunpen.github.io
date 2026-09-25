@@ -2,7 +2,7 @@
 title: "Attention-less"
 publishDate: 2026-08-15
 description: "Lack of attention in the age of attention mechanisms"
-tags: [ developer-experience, productivity, ai ]
+tags: [ developer-experience, productivity, aidlc ]
 draft: false
 ---
 

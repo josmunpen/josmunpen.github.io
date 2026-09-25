@@ -405,3 +405,11 @@ ul.work-list a:focus-visible {
 		scroll-behavior: auto !important;
 	}
 }
+
+/* Footnotes injected by remark-keep-orphan-footnotes so that footnote
+   definitions without an in-body reference still render. The injected
+   reference is hidden from sighted users and silencing screen readers via
+   aria-hidden in the plugin. */
+.orphan-footnote-ref {
+	display: none;
+}
